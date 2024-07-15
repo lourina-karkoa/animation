@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+section{
+    height: 100px;
+    width: 100px;
+    position: relative;
+   
+  
+} 
+section p{
+    font-size: 30px;
+    width: max-content;
+}
+.lk-adding {
+    position: absolute;
+    top: -80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+section span{
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+     /* animation: ani 2s ease-out;  */
+
+}
+section .c1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c11;
+    animation-duration: 2s;
+    animation-iteration-count:10;
+    opacity: 0.1;
+}
+section .c2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c22;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c33;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c4{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c44;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c5{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c55;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c6{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c66;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c7{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c77;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c8{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c88;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+section .c9{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: c99;
+    animation-duration: 2s;
+    animation-iteration-count:10 ;
+    opacity: 0.3;
+}
+
+@keyframes c11 {
+     
+    form{
+        translate:0px 0px 
+
+    }
+    to{
+        translate:0px 60px 
+    }
+}
+@keyframes c22 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:60px 0px ;
+    }
+}
+@keyframes c33{
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:0px 60px ;
+    }
+}
+@keyframes c44 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:0px -60px; 
+    }
+}
+@keyframes c55 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:-60px 0px; 
+    }
+}
+@keyframes c66 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:-40px -40px ;
+    }
+}
+@keyframes c77 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:40px 40px ;
+    }
+}
+@keyframes c88 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:40px -40px ;
+    }
+}
+@keyframes c99 {
+     
+    form{
+        translate:0px 0px ;
+
+    }
+    to{
+        translate:-40px 40px ;
+    }
+}
+
